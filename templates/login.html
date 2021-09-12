@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+   body{
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: black;
+  }
+  .container {
+       position:center;
+      padding: 10px;
+    background-color: black;
+  }
+
+  input[type=text], input[type=password], textarea {
+
+    width: 25%;
+    padding:10px;
+
+    display: inline-block;
+    border: none;
+    background: orange;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+   margin: 5px 50 15px 500;
+    background-color: orange;
+    outline: none;
+  }
+   div {
+              padding: 10x 0;
+           }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .registerbtn {
+    background-color: orange;
+    color: black;
+    padding: 10px 20px;
+    margin: 30px 0;
+    border: none;
+    cursor: pointer;
+    width: 8%;
+    opacity: 0.9;
+  }
+  .registerbtn:hover {
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+<form>
+
+  <div class="container">
+      <center>  <h1><font color="white" > Login</font></h1> </center>
+
+
+<label> <font color="white" >Username </font></label>
+<input type="text" name="username" placeholder= "Username" size="15" required /> <br>
+
+
+
+ <label for="psw"><b><font color="white" >password</font></b></label>
+ <input type="password" placeholder="Enter password" name="password1" required>  <br>
+
+      <button type="submit" class="registerbtn" ><b>LOGIN</b></button>
+  </div>
+
+</form>
+</body>
+</html>

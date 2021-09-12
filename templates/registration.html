@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body{
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: pink;
+  }
+  .container {
+       position:center;
+      padding: 10px;
+    background-color: black;
+  }
+
+  input[type=text], input[type=password], textarea {
+
+    width: 25%;
+    padding:10px;
+
+    display: inline-block;
+    border: none;
+    background: orange;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+   margin: 5px 50 15px 500;
+    background-color: orange;
+    outline: none;
+  }
+   div {
+              padding: 10x 0;
+           }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .registerbtn {
+    background-color: orange;
+    color: orange;
+    padding: 16px 20px;
+    margin: 500px 500;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .registerbtn:hover {
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+<form>
+  <div class="container">
+  <center>  <h1><font color="white" >Register</font> </h1></center>
+  <hr>
+ <label><b><font color="white" > Firstname</font>
+    <input type="text" name="first_name" size="15"></label><br><br>
+    <label> <font color="white" >Lastname</font>
+     <input type="text" name="last_name" size="15"></label><br><br>
+    <label><font color="white" > Username</font>
+     <input type="text" name="username" size="15"></label><br><br>
+    <label> <font color="white" >Password</font>
+     <input type="password" name="password1" size="15"></label><br><br>
+    <label><font color="white" > Confirm password</font>
+    <input type="password" name="password2" size="15"></label><br><br>
+        <label><font color="white" >Email</font>
+            <input type="text" name="email" size="15" ></label><br><br></b>
+    <input type="submit" value="submit">
+
+  </div>
+</form>
+</body>
+</html>
